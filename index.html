@@ -11,50 +11,50 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="static/style.css" />
-    <link rel="stylesheet" href="static/scrolling-nav.css">
-    <script type="application/javascript">
-        //jQuery for page scrolling feature - requires jQuery Easing plugin
-        $(function() {
-            $('a.page-scroll').bind('click', function(event) {
-                var $anchor = $(this);
-                $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top
-                }, 1500, 'easeOutExpo');
-                event.preventDefault();
-            });
-        });
-    </script>
+    <!--<link rel="stylesheet" href="static/scrolling-nav.css">-->
+    <!--<script type="application/javascript">-->
+        <!--//jQuery for page scrolling feature - requires jQuery Easing plugin-->
+        <!--$(function() {-->
+            <!--$('a.page-scroll').bind('click', function(event) {-->
+                <!--var $anchor = $(this);-->
+                <!--$('html, body').stop().animate({-->
+                    <!--scrollTop: $($anchor.attr('href')).offset().top-->
+                <!--}, 1500, 'easeOutExpo');-->
+                <!--event.preventDefault();-->
+            <!--});-->
+        <!--});-->
+    <!--</script>-->
 </head>
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body>
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"></a>
-            </div>
+    <!--<nav class="navbar navbar-default navbar-fixed-top" role="navigation">-->
+        <!--<div class="container">-->
+            <!--<div class="navbar-header page-scroll">-->
+                <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">-->
+                    <!--<span class="sr-only">Toggle navigation</span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                    <!--<span class="icon-bar"></span>-->
+                <!--</button>-->
+                <!--<a class="navbar-brand page-scroll" href="#page-top"></a>-->
+            <!--</div>-->
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden"><a class="page-scroll" href="#page-top"></a></li>
-                    <li><a class="page-scroll" href="#introduction">Introduction</a></li>
-                    <li><a class="page-scroll" href="#contacts">Contacts</a></li>
-                    <li><a class="page-scroll" href="#skills">Skills</a></li>
-                    <li><a class="page-scroll" href="#jobs">Jobs</a></li>
-                    <li><a class="page-scroll" href="#education">Education</a></li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+            <!--&lt;!&ndash; Collect the nav links, forms, and other content for toggling &ndash;&gt;-->
+            <!--<div class="collapse navbar-collapse navbar-ex1-collapse">-->
+                <!--<ul class="nav navbar-nav">-->
+                    <!--&lt;!&ndash; Hidden li included to remove active class from about link when scrolled up past about section &ndash;&gt;-->
+                    <!--<li class="hidden"><a class="page-scroll" href="#page-top"></a></li>-->
+                    <!--<li><a class="page-scroll" href="#introduction">Introduction</a></li>-->
+                    <!--<li><a class="page-scroll" href="#contacts">Contacts</a></li>-->
+                    <!--<li><a class="page-scroll" href="#skills">Skills</a></li>-->
+                    <!--<li><a class="page-scroll" href="#jobs">Jobs</a></li>-->
+                    <!--<li><a class="page-scroll" href="#education">Education</a></li>-->
+                <!--</ul>-->
+            <!--</div>-->
+            <!--&lt;!&ndash; /.navbar-collapse &ndash;&gt;-->
+        <!--</div>-->
+        <!--&lt;!&ndash; /.container &ndash;&gt;-->
+    <!--</nav>-->
         <section id="introduction" class="section introduction-section">
             <div class="image">
                 <img src="static/profile_picture.jpg" class="img-responsive center-block">
@@ -74,10 +74,10 @@
                             <span class="fa fa-envelope"></span><a class="" href="mailto:peternagyxx@gmail.com">Email</a>
                         </div>
                         <div class="contact-item col-sm-4">
-                            <span class="fa fa-facebook-square"></span><a href="https://www.facebook.com/peternagy0">Facebook</a>
+                            <span class="fa fa-github-square"></span><a href="https://github.com/pnagy">Github</a>
                         </div>
                         <div class="contact-item col-sm-4">
-                            <span class="fa fa-github-square"></span><a href="https://github.com/pnagy">Github</a>
+                            <span class="fa fa-facebook-square"></span><a href="https://www.facebook.com/peternagy0">Facebook</a>
                         </div>
                     </div>
                     <div class="row">
@@ -160,14 +160,79 @@
         <section id="jobs" class="section jobs-section">
             <div class="container">
                 <h2>Jobs</h2>
-                Bacon ipsum dolor amet pastrami pork spare ribs tail kevin pork belly. Hamburger pork belly spare ribs ribeye, kevin bacon sausage pork chop venison tri-tip brisket alcatra turkey t-bone frankfurter. Turducken chuck drumstick brisket, kielbasa strip steak shankle tail salami tri-tip shank sausage fatback porchetta. Andouille corned beef flank drumstick cupim. Shank porchetta bacon meatball tail. Pork rump chicken, ribeye pig drumstick sausage filet mignon shankle alcatra turducken landjaeger sirloin. Pig rump tail biltong drumstick salami meatloaf.
+                <div class="row">
+                    <div class="col-lg-4">
+                        November 2009 – April 2012 (2 years 6 months)
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="job-title">
+                            <strong>Web developer</strong>, <em>University of Szeged</em>
+                            <div class="job-description">
+                                I was a Drupal developer at the Software Engineering Department of University of Szeged. I used PHP, Javascript/JQuery and all of other basic web technologies.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        April 2012 – August 2014 (2 years 5 months)
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="job-title">
+                            <strong>Software engineer</strong>, <em>LogMeIn Inc.</em>
+                            <div class="job-description">
+                                I was a member of a Scrum team at the R&D department of LogMeIn. I participated in many projects. The most notable ones are the followings:
+                                <ul>
+                                    <li>Creating HTML5 libraries and applications using pure javascript and GWT.</li>
+                                    <li>Creating internal continous deployment tool using C#/.NET</li>
+                                    <li>Developing cross-browser/cross-platform video conferencing tool using WebRTC in javascript, Qt/C++, python. During this project we made IOS and Android applications too.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        August 2014 - February 2016 (1 years 7 months)
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="job-title">
+                            <strong>Fullstack engineer</strong>, <em>Starschema Ltd.</em>
+                            <div class="job-description">
+                                I was a member of an internal "startup" called VirtDB. VirtDB is a data virtualization solution. We implemented our solution as a micro-service architecture with many components. These components were written in C++ and NodeJs. My primary responsibility was the implementation of the GUI where the backend was made using NodeJs with Express and the frontend used AngularJS and React. I also took part in the development of other NodeJS components.
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <section id="education" class="section education-section">
-            <div class="container">
-                <h2>Education</h2>
-                Bacon ipsum dolor amet pastrami pork spare ribs tail kevin pork belly. Hamburger pork belly spare ribs ribeye, kevin bacon sausage pork chop venison tri-tip brisket alcatra turkey t-bone frankfurter. Turducken chuck drumstick brisket, kielbasa strip steak shankle tail salami tri-tip shank sausage fatback porchetta. Andouille corned beef flank drumstick cupim. Shank porchetta bacon meatball tail. Pork rump chicken, ribeye pig drumstick sausage filet mignon shankle alcatra turducken landjaeger sirloin. Pig rump tail biltong drumstick salami meatloaf.
+    <section id="education" class="section education-section">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="row">
+                <div class="col-lg-4">
+                    2006 – 2009
+                </div>
+                <div class="col-lg-8">
+                    <div class="job-title">
+                        <strong>Mathematics Bsc.</strong>, <em>University of Szeged</em>
+                        <div class="job-description">
+                            Unfinished. I am only missing the final exam.
+                        </div>
+                    </div>
+                </div>
             </div>
-        </section>
+            <div class="row">
+                <div class="col-lg-4">
+                    2009 – 2012
+                </div>
+                <div class="col-lg-8">
+                    <div class="job-title">
+                        <strong>Computer Science Bsc.</strong>, <em>University of Szeged</em>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
