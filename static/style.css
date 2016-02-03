@@ -1,46 +1,133 @@
-.story-text-big {
-  color: #b9b9b9;
-  font-size: 72px;
+.story-text {
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+}
+.learn-about-me {
+  font-size: 140px;
+  padding-top: 120px;
+  line-height: 0.8;
+  padding-bottom: 25px;
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+}
+.need-to-know {
+  line-height: 1.0;
+}
+.contact-me {
+  margin-top: 400px;
+  line-height: 0.8;
+}
+.worked-at {
+  line-height: 0.8;
+  margin-top: 80px;
 }
 body {
-  font-size: 20px;
+  font-family: 'Didact Gothic', sans-serif;
+  background-color: #fdfdfd;
+  color: #383131;
 }
-.skill-list li {
+.name {
+  font-size: 72px;
+  font-weight: bolder;
+}
+.intro {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+.basic-info {
+  font-size: 30px;
+  font-weight: bold;
+}
+.image-row {
+  margin-top: 45px;
+}
+.story-text-0 {
+  font-size: 88px;
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+}
+.story-text-1 {
+  font-size: 72px;
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+}
+.story-text-2 {
+  font-size: 30px;
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+}
+.story-text-3 {
+  font-size: 28px;
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+}
+.skill-list span {
   display: inline;
   white-space: nowrap;
 }
-.skills-level-3 li {
+.skills-level-3 span {
   border: solid 1px;
-  padding: 15px;
-  font-size: 36px;
-  line-height: 90px;
+  font-size: 50px;
+  padding: 13px;
+  margin: 13px;
+  line-height: 2.3;
 }
-.skills-level-2 li {
+.skills-level-2 span {
   border: solid 1px;
-  padding: 10px;
-  font-size: 28px;
-  line-height: 65px;
+  font-size: 30px;
+  padding: 8px;
+  margin: 8px;
+  line-height: 2.3;
 }
-.skills-level-1 li {
+.skills-level-1 span {
   border: solid 1px;
-  padding: 5px;
   font-size: 20px;
-  line-height: 65px;
+  padding: 5px;
+  margin: 5px;
+  line-height: 2.3;
+}
+.master-skill-title {
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+  font-size: 50px;
+}
+.exp-skill-title {
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+  font-size: 30px;
+}
+.work-skill-title {
+  text-align: right;
+  color: rgba(56, 49, 49, 0.3);
+  font-size: 20px;
 }
 .contact-item {
-  font-size: 36px;
-  text-align: center;
-  line-height: 75px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #383131;
 }
 .contact-item a {
   text-decoration: none;
-  color: black;
-  margin-left: 10px;
+  color: #383131;
+  padding-left: 10px;
 }
-.intro {
-  margin: auto;
-  max-width: 800px;
-  text-align: justify;
-  margin-top: 50px;
-  padding: 40px;
+.job-section {
+  margin-top: 40px;
+}
+.job-header {
+  font-size: 30px;
+}
+.job-description {
+  font-size: 24px;
+}
+.job-title {
+  font-weight: bold;
+}
+.jobs {
+  margin-top: 150px;
+}
+.container {
+  margin-bottom: 200px;
 }
