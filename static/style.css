@@ -30,6 +30,9 @@ body {
   font-size: 72px;
   font-weight: bolder;
 }
+.image img {
+  width: 500px;
+}
 .intro {
   font-size: 24px;
   font-weight: bold;
