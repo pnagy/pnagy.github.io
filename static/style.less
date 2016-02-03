@@ -36,26 +36,12 @@
   .story-text()
 }
 
+.image {
+  margin: 80px 0 80px 0;
+}
+
 .need-to-know {
   line-height: 1.0;
-}
-
-.contact-me {
-  margin-top: 400px;
-  line-height: 0.8;
-}
-
-.worked-at {
-  line-height: 0.8;
-  margin-top: 80px;
-}
-
-.schools {
-  line-height: 0.8;
-}
-
-.language {
-  line-height: 0.8;
 }
 
 body {
@@ -76,7 +62,8 @@ body {
 .intro {
   font-size: @text-level-3;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 
 .basic-info {
@@ -84,15 +71,12 @@ body {
   font-weight: bold;
 }
 
-.image-row {
-  margin-top: 45px;
-}
-
 .story-text-0 {
+  .story-text();
   font-size: @text-level-0;
-  .story-text()
-}
+  line-height: 0.8;
 
+}
 .story-text-1 {
   font-size: @text-level-1;
   .story-text()
@@ -108,15 +92,6 @@ body {
   .story-text()
 }
 
-.name {
-
-}
-
-.image {
-
-}
-
-
 .skill-list {
   span {
     display: inline;
@@ -124,49 +99,59 @@ body {
   }
 }
 
-.skills-level-3 {
+.skills {
   span {
     border: solid 1px;
-    font-size: @skill-title-3;
-    padding: 13px;
-    margin: 13px;
     line-height: 2.3;
+  }
+}
+.skills-level-3 {
+  margin-top: 80px;
+  span {
+    font-size: @skill-title-3;
+    padding: 8px;
+    margin: 8px;
   }
 }
 
 .skills-level-2 {
   span {
-    border: solid 1px;
     font-size: @skill-title-2;
-    padding: 8px;
-    margin: 8px;
-    line-height: 2.3;
+    padding: 5px;
+    margin: 5px;
   }
 }
 
 .skills-level-1 {
+  margin-bottom: 80px;
   span {
-    border: solid 1px;
     font-size: @skill-title-1;
-    padding: 5px;
-    margin: 5px;
-    line-height: 2.3;
+    padding: 3px;
+    margin: 3px;
   }
 }
 
-.master-skill-title {
+.skill-level-3-title {
   .story-text();
   font-size: @skill-title-3;
+  padding-top: 21px;
 }
 
-.exp-skill-title {
+.skill-level-2-title {
   .story-text();
   font-size: @skill-title-2;
+  padding-top: 13px;
 }
 
-.work-skill-title {
+.skill-level-1-title {
   .story-text();
   font-size: @skill-title-1;
+  padding-top: 8px;
+}
+
+.contacts {
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .contact-item {
@@ -181,7 +166,7 @@ body {
   }
 }
 
-.job-section {
+.job {
   margin-top: 40px;
 }
 
@@ -198,16 +183,17 @@ body {
 }
 
 .jobs {
-  margin-top: 150px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 
 .container {
   margin-bottom: 200px;
 }
 
-
 .languages {
-  margin-top: 120px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 
 .language-name {

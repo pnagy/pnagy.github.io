@@ -10,22 +10,11 @@
   text-align: right;
   color: rgba(56, 49, 49, 0.3);
 }
+.image {
+  margin: 80px 0 80px 0;
+}
 .need-to-know {
   line-height: 1.0;
-}
-.contact-me {
-  margin-top: 400px;
-  line-height: 0.8;
-}
-.worked-at {
-  line-height: 0.8;
-  margin-top: 80px;
-}
-.schools {
-  line-height: 0.8;
-}
-.language {
-  line-height: 0.8;
 }
 body {
   font-family: 'Didact Gothic', sans-serif;
@@ -42,19 +31,18 @@ body {
 .intro {
   font-size: 24px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 40px;
+  margin-bottom: 80px;
 }
 .basic-info {
   font-size: 30px;
   font-weight: bold;
 }
-.image-row {
-  margin-top: 45px;
-}
 .story-text-0 {
-  font-size: 88px;
   text-align: right;
   color: rgba(56, 49, 49, 0.3);
+  font-size: 88px;
+  line-height: 0.8;
 }
 .story-text-1 {
   font-size: 72px;
@@ -75,41 +63,52 @@ body {
   display: inline;
   white-space: nowrap;
 }
-.skills-level-3 span {
+.skills span {
   border: solid 1px;
-  font-size: 50px;
-  padding: 13px;
-  margin: 13px;
   line-height: 2.3;
 }
-.skills-level-2 span {
-  border: solid 1px;
-  font-size: 30px;
+.skills-level-3 {
+  margin-top: 80px;
+}
+.skills-level-3 span {
+  font-size: 50px;
   padding: 8px;
   margin: 8px;
-  line-height: 2.3;
 }
-.skills-level-1 span {
-  border: solid 1px;
-  font-size: 20px;
+.skills-level-2 span {
+  font-size: 30px;
   padding: 5px;
   margin: 5px;
-  line-height: 2.3;
 }
-.master-skill-title {
+.skills-level-1 {
+  margin-bottom: 80px;
+}
+.skills-level-1 span {
+  font-size: 20px;
+  padding: 3px;
+  margin: 3px;
+}
+.skill-level-3-title {
   text-align: right;
   color: rgba(56, 49, 49, 0.3);
   font-size: 50px;
+  padding-top: 21px;
 }
-.exp-skill-title {
+.skill-level-2-title {
   text-align: right;
   color: rgba(56, 49, 49, 0.3);
   font-size: 30px;
+  padding-top: 13px;
 }
-.work-skill-title {
+.skill-level-1-title {
   text-align: right;
   color: rgba(56, 49, 49, 0.3);
   font-size: 20px;
+  padding-top: 8px;
+}
+.contacts {
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 .contact-item {
   font-size: 24px;
@@ -122,7 +121,7 @@ body {
   color: #383131;
   padding-left: 10px;
 }
-.job-section {
+.job {
   margin-top: 40px;
 }
 .job-header {
@@ -135,13 +134,15 @@ body {
   font-weight: bold;
 }
 .jobs {
-  margin-top: 150px;
+  margin-top: 40px;
+  margin-bottom: 60px;
 }
 .container {
   margin-bottom: 200px;
 }
 .languages {
-  margin-top: 120px;
+  margin-top: 80px;
+  margin-bottom: 60px;
 }
 .language-name {
   font-size: 30px;
