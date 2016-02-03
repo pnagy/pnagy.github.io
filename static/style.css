@@ -111,7 +111,7 @@ body {
   font-size: 24px;
   font-weight: bold;
   margin-top: 10px;
-  color: #383131;
+  color: rgba(56, 49, 49, 0.5);
 }
 .contact-item a {
   text-decoration: none;
