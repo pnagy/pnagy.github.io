@@ -148,10 +148,10 @@ body {
 }
 .language-bar {
   margin-top: 5px;
-  font-size: 20px;
+  font-size: 18px;
   height: 40px;
   color: #fdfdfd;
-  width: 380px;
+  width: 100%;
 }
 .language-bar div {
   padding-left: 10px;
