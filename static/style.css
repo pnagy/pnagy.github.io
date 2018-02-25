@@ -21,10 +21,10 @@
   margin: 40px 0 40px 0;
 }
 .need-to-know {
-  line-height: 1.0;
+  line-height: 1;
 }
 body {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   background-color: #fdfdfd;
   color: #383131;
 }
@@ -178,6 +178,9 @@ a:visited {
 }
 .job-description {
   font-size: 24px;
+}
+.job-date {
+  font-style: italic;
 }
 .job-title {
   font-weight: bold;

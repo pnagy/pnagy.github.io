@@ -1,6 +1,6 @@
-@black-color:        #383131;
-@grey-color:  fade(@black-color, 30%);
-@light-grey-color:  #e9e9e9;
+@black-color: #383131;
+@grey-color: fade(@black-color, 30%);
+@light-grey-color: #e9e9e9;
 @bg-color: #fdfdfd;
 
 @blueA: #4cb7ef;
@@ -38,7 +38,7 @@
   padding-top: 120px;
   line-height: 0.8;
   padding-bottom: 25px;
-  .story-text()
+  .story-text();
 }
 
 .image {
@@ -46,16 +46,18 @@
 }
 
 .need-to-know {
-  line-height: 1.0;
+  line-height: 1;
 }
 
 body {
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: "Didact Gothic", sans-serif;
   background-color: @bg-color;
   color: @black-color;
 }
 
-a:active, a:hover, a:visited {
+a:active,
+a:hover,
+a:visited {
   color: @black-color;
 }
 
@@ -89,21 +91,20 @@ a:active, a:hover, a:visited {
   .story-text();
   font-size: @text-level-0;
   line-height: 0.8;
-
 }
 .story-text-1 {
   font-size: @text-level-1;
-  .story-text()
+  .story-text();
 }
 
 .story-text-2 {
   font-size: @text-level-2;
-  .story-text()
+  .story-text();
 }
 
 .story-text-3 {
   font-size: 28px;
-  .story-text()
+  .story-text();
 }
 
 .skill-list {
@@ -221,6 +222,10 @@ a:active, a:hover, a:visited {
 
 .job-description {
   font-size: @text-level-3;
+}
+
+.job-date {
+  font-style: italic;
 }
 
 .job-title {
